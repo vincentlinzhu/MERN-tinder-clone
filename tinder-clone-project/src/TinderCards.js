@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./TinderCards.css";
 import TinderCard from "react-tinder-card";
+import { dir } from "async";
 import axios from "./axios";
 
 function TinderCards() {
